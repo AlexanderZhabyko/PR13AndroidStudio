@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PR13" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PR13" parent="Base.Theme.PR13" />
+    <style name="DatePickerTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/darkgreen</item>
+        <item name="android:textColorPrimary">@color/green</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="AlarmDialogTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColorPrimary">@color/yellow</item>
+    </style>
+
+
+</resources>
